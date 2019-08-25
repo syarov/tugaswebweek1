@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+  <head>
+    <title>Pendaftaran usaha</title>
+     <link href="belajar.css" type="text/css" rel="stylesheet" />
+    <class banner></class>
+    <nav>
+        <ul>
+            <li><a href="http://www.decurix.com/">Home</a></li>
+            <li><a href="Formusaha.html" target="_blanks">Daftar usaha</a></li>
+            <li><a href="https://t.me/joinchat/DnTfRRP8pDoF4c07PJ195Q" target="_blanks">Komunitas</a></li>
+            <li><a href="https://www.instagram.com/decurix.official/?hl=en" target="_blanks">Ikuti kami</a></li>
+        </ul>
+        </nav>
+    </head>
+  <body>
+  <div class="banner">
+    <div id="banner-content">
+      <h1><br>Tanya lebih lanjut di <a href="whatsapp://send?text=Hello&phone=+6282231004380" target="_blank">sini!</a></h1>
+  </div>
+  </div>
+    <div class="formulir">
+    <section id="overlay">
+      <form>
+        <h1>Form pendaftaran UMKM dan Startup</h1>
+        <section class="klasifikasi">
+          <label for="lokasi">Nama perusahaan</label>
+        <br>
+    			<input type="text" name="nama" id="nama">
+        </section>
+        <hr>
+      <form>
+        <section class="domisili perusahaan">
+          <label for="lokasi">Domisili usaha</label>
+        <br>
+    			<input type="text" name="domisili" id="domisili">
+        </section>
+        <hr>
+        <section class="total aset">
+          <span>Berapa aset usaha kamu?</span>
+        <br><br>
+        <input id="kecil" name="harga" type="radio">
+        <label for="kecil">di bawah 500 Juta</label>
+        <br>
+        <input id="miskin" name="harga" type="radio" value="miskin">
+        <label value="miskin" name="amount" id="amount">500 Juta-2 Miliar</input>
+        <br>
+        <input id="menengah" name="harga" type="radio" value="menengah">
+        <label value="menengah" name="amount" id="amount">2 Miliar-10 Miliar</input>
+        <br>
+        <input id="kaya" name="harga" type="radio" value="kaya">
+        <label value="kaya" name="amount" id="amount">10 Miliar-50 Miliar</input>
+        <br>
+        <input id="sultan" name="harga" type="radio" value="sultan">
+        <label value="sultan" name="amount" id="amount">di atas 50 Miliar</input>
+        </section>
+        <hr>
+        <section class="sumber pendanaan">
+          <span>Sumber pendanaan</span>
+          <br><br>
+            <div id="pilihan centang">
+          <input id="bank" name="bank" type="checkbox" value="bank">
+					<label for="bank">Pinjaman bank</label>
+          <input id="mandiri" name="mandiri" type="checkbox" value="mandiri">
+          <label for="mandiri">Pendanaan mandiri</label>
+          <br>
+          <input type="checkbox" name="venture capital" value="venture capital" id="venture capital">
+            <label for="venture capital">Venture capital</label>
+            <input type="checkbox" name="angel investor" value="angel investor" id="angel investor">
+            <label for="angel investor">Angel investor</label>
+            </div>
+        </section>
+        
+        <hr>
+        <section class="hutang">
+          <span>Apakah usaha anda bebas hutang?</span>
+          <br><br>
+          <input type="radio" name="hutang" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="hutang" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+              <form>
+        <section class="hutang">
+          <label for="lokasi">Jika <strong>"memiliki hutang"</strong>, berapa jumlah hutang tersebut?</label>
+        <br><br>
+    			<input type="text" name="hutang" id="hutang">
+        </section>
+        <hr>
+
+        <section class="kesiapan">
+          <label for="kesiapan">Ukur tingkat kesiapan usahamu untuk didanai</label>
+          <br>
+          <span>Tidak siap</span>
+          <input type="range" name="kesiapan" id="kesiapan" value="3" min="1" max="9">
+          <span>Sangat siap</span>
+        </section>
+        <p><em>Keterangan: Silahkan baca tentang indikator technology readiness level, paling rendah yaitu konsep dan paling tinggi sudah dipasarkan</p>
+        <p>Lebih lanjut bisa dilihat di <a href="https://en.wikipedia.org/wiki/Technology_readiness_level">sini</em></a>
+        <hr>
+        
+
+        <section class="jual saham">
+          <label for="jual saham">Apa alasan anda menjual saham usaha anda?</label>
+          <br><br>
+          <select name="jual saham" id="jual saham">
+            <option value="ekspansi">Ekspansi bisnis</option>
+            <option value="diversifikasi">Diversifikasi usaha</option>
+            <option value="exit">Strategi exit</option>
+            <option value="transparansi">Peningkatan transparansi</option>
+            <option value="bimbingan">Mendapatkan bimbingan usaha</option>
+          </select>
+        </section>
+        <hr>
+        <section class="harapan">
+          <label for="harapan">Apa harapanmu dengan bergabung bersama kami?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="7" cols="75"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          <form>
+            <input type="submit" value="Submit">
+          </form>
+        </section>
+    </div>
+      </form>
+    </section>
+  </body>
+</html>
